@@ -20,3 +20,6 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8050/eureka}
+
+#-e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8050/eureka
+# add to the command while docker run
